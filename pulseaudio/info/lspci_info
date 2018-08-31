@@ -1,0 +1,440 @@
+00:00.0 Host bridge: Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers (rev 07)
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 07)
+00:02.0 VGA compatible controller: Intel Corporation Device 3e92
+00:08.0 System peripheral: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
+00:14.0 USB controller: Intel Corporation 200 Series/Z370 Chipset Family USB 3.0 xHCI Controller
+00:16.0 Communication controller: Intel Corporation 200 Series PCH CSME HECI #1
+00:17.0 SATA controller: Intel Corporation 200 Series PCH SATA controller [AHCI mode]
+00:1b.0 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #17 (rev f0)
+00:1b.2 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #19 (rev f0)
+00:1b.4 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #21 (rev f0)
+00:1c.0 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #1 (rev f0)
+00:1c.1 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #2 (rev f0)
+00:1c.2 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #3 (rev f0)
+00:1c.4 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #5 (rev f0)
+00:1c.6 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #7 (rev f0)
+00:1d.0 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #9 (rev f0)
+00:1f.0 ISA bridge: Intel Corporation Z370 Chipset LPC/eSPI Controller
+00:1f.2 Memory controller: Intel Corporation 200 Series/Z370 Chipset Family Power Management Controller
+00:1f.3 Audio device: Intel Corporation 200 Series PCH HD Audio
+00:1f.4 SMBus: Intel Corporation 200 Series/Z370 Chipset Family SMBus Controller
+00:1f.6 Ethernet controller: Intel Corporation Ethernet Connection (2) I219-V
+01:00.0 VGA compatible controller: NVIDIA Corporation GP102 [GeForce GTX 1080 Ti] (rev a1)
+01:00.1 Audio device: NVIDIA Corporation GP102 HDMI Audio Controller (rev a1)
+07:00.0 Ethernet controller: Qualcomm Atheros Killer E2500 Gigabit Ethernet Controller (rev 10)
+08:00.0 USB controller: ASMedia Technology Inc. Device 2142
+09:00.0 USB controller: ASMedia Technology Inc. Device 2142
+00:00.0 Host bridge: Intel Corporation 8th Gen Core Processor Host Bridge/DRAM Registers (rev 07)
+	Subsystem: Gigabyte Technology Co., Ltd 8th Gen Core Processor Host Bridge/DRAM Registers
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: <access denied>
+
+00:01.0 PCI bridge: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor PCIe Controller (x16) (rev 07) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000e000-0000efff
+	Memory behind bridge: ee000000-ef0fffff
+	Prefetchable memory behind bridge: 00000000d0000000-00000000e1ffffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:02.0 VGA compatible controller: Intel Corporation Device 3e92 (prog-if 00 [VGA controller])
+	Subsystem: Gigabyte Technology Co., Ltd Device d000
+	Flags: bus master, fast devsel, latency 0, IRQ 141
+	Memory at ed000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at c0000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at f000 [size=64]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: i915
+	Kernel modules: i915
+
+00:08.0 System peripheral: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
+	Subsystem: Gigabyte Technology Co., Ltd Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th Gen Core Processor Gaussian Mixture Model
+	Flags: fast devsel, IRQ 255
+	Memory at ef44e000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: <access denied>
+
+00:14.0 USB controller: Intel Corporation 200 Series/Z370 Chipset Family USB 3.0 xHCI Controller (prog-if 30 [XHCI])
+	Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH USB 3.0 xHCI Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 131
+	Memory at ef430000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:16.0 Communication controller: Intel Corporation 200 Series PCH CSME HECI #1
+	Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH CSME HECI
+	Flags: bus master, fast devsel, latency 0, IRQ 130
+	Memory at ef44d000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:17.0 SATA controller: Intel Corporation 200 Series PCH SATA controller [AHCI mode] (prog-if 01 [AHCI 1.0])
+	Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH SATA controller [AHCI mode]
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 132
+	Memory at ef448000 (32-bit, non-prefetchable) [size=8K]
+	Memory at ef44c000 (32-bit, non-prefetchable) [size=256]
+	I/O ports at f090 [size=8]
+	I/O ports at f080 [size=4]
+	I/O ports at f060 [size=32]
+	Memory at ef44b000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+
+00:1b.0 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #17 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1b.2 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #19 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 122
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1b.4 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #21 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 123
+	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.0 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #1 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 124
+	Bus: primary=00, secondary=05, subordinate=05, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.1 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #2 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 125
+	Bus: primary=00, secondary=06, subordinate=06, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.2 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #3 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 126
+	Bus: primary=00, secondary=07, subordinate=07, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff
+	Memory behind bridge: ef300000-ef3fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.4 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #5 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 127
+	Bus: primary=00, secondary=08, subordinate=08, sec-latency=0
+	Memory behind bridge: ef200000-ef2fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.6 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #7 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 128
+	Bus: primary=00, secondary=09, subordinate=09, sec-latency=0
+	Memory behind bridge: ef100000-ef1fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1d.0 PCI bridge: Intel Corporation 200 Series PCH PCI Express Root Port #9 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 129
+	Bus: primary=00, secondary=0a, subordinate=0a, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1f.0 ISA bridge: Intel Corporation Z370 Chipset LPC/eSPI Controller
+	Subsystem: Gigabyte Technology Co., Ltd Device 5001
+	Flags: bus master, medium devsel, latency 0
+
+00:1f.2 Memory controller: Intel Corporation 200 Series/Z370 Chipset Family Power Management Controller
+	Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH PMC
+	Flags: fast devsel
+	Memory at ef444000 (32-bit, non-prefetchable) [disabled] [size=16K]
+
+00:1f.3 Audio device: Intel Corporation 200 Series PCH HD Audio
+	Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH HD Audio
+	Flags: bus master, fast devsel, latency 32, IRQ 150
+	Memory at ef440000 (64-bit, non-prefetchable) [size=16K]
+	Memory at ef420000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1f.4 SMBus: Intel Corporation 200 Series/Z370 Chipset Family SMBus Controller
+	Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH SMBus Controller
+	Flags: medium devsel, IRQ 16
+	Memory at ef44a000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at f040 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:1f.6 Ethernet controller: Intel Corporation Ethernet Connection (2) I219-V
+	Subsystem: Gigabyte Technology Co., Ltd Ethernet Connection (2) I219-V
+	Flags: bus master, fast devsel, latency 0, IRQ 151
+	Memory at ef400000 (32-bit, non-prefetchable) [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+01:00.0 VGA compatible controller: NVIDIA Corporation GP102 [GeForce GTX 1080 Ti] (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: Gigabyte Technology Co., Ltd GP102 [GeForce GTX 1080 Ti]
+	Flags: fast devsel, IRQ 255
+	Memory at ee000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at d0000000 (64-bit, prefetchable) [size=256M]
+	Memory at e0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at e000 [size=128]
+	Expansion ROM at ef000000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: vfio-pci
+	Kernel modules: nouveau
+
+01:00.1 Audio device: NVIDIA Corporation GP102 HDMI Audio Controller (rev a1)
+	Subsystem: Gigabyte Technology Co., Ltd GP102 HDMI Audio Controller
+	Flags: fast devsel, IRQ 255
+	Memory at ef080000 (32-bit, non-prefetchable) [disabled] [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: vfio-pci
+	Kernel modules: snd_hda_intel
+
+07:00.0 Ethernet controller: Qualcomm Atheros Killer E2500 Gigabit Ethernet Controller (rev 10)
+	Subsystem: Gigabyte Technology Co., Ltd Killer E2500 Gigabit Ethernet Controller
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at ef300000 (64-bit, non-prefetchable) [size=256K]
+	I/O ports at d000 [size=128]
+	Capabilities: <access denied>
+	Kernel driver in use: alx
+	Kernel modules: alx
+
+08:00.0 USB controller: ASMedia Technology Inc. Device 2142 (prog-if 30 [XHCI])
+	Subsystem: Gigabyte Technology Co., Ltd Device 5007
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at ef200000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+09:00.0 USB controller: ASMedia Technology Inc. Device 2142 (prog-if 30 [XHCI])
+	Subsystem: Gigabyte Technology Co., Ltd Device 5007
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at ef100000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:00.0 0600: 8086:3ec2 (rev 07)
+	Subsystem: 1458:5000
+	Flags: bus master, fast devsel, latency 0
+	Capabilities: <access denied>
+
+00:01.0 0604: 8086:1901 (rev 07) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 0000e000-0000efff
+	Memory behind bridge: ee000000-ef0fffff
+	Prefetchable memory behind bridge: 00000000d0000000-00000000e1ffffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:02.0 0300: 8086:3e92 (prog-if 00 [VGA controller])
+	Subsystem: 1458:d000
+	Flags: bus master, fast devsel, latency 0, IRQ 141
+	Memory at ed000000 (64-bit, non-prefetchable) [size=16M]
+	Memory at c0000000 (64-bit, prefetchable) [size=256M]
+	I/O ports at f000 [size=64]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: i915
+	Kernel modules: i915
+
+00:08.0 0880: 8086:1911
+	Subsystem: 1458:5000
+	Flags: fast devsel, IRQ 255
+	Memory at ef44e000 (64-bit, non-prefetchable) [disabled] [size=4K]
+	Capabilities: <access denied>
+
+00:14.0 0c03: 8086:a2af (prog-if 30 [XHCI])
+	Subsystem: 1458:5007
+	Flags: bus master, medium devsel, latency 0, IRQ 131
+	Memory at ef430000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+00:16.0 0780: 8086:a2ba
+	Subsystem: 1458:1c3a
+	Flags: bus master, fast devsel, latency 0, IRQ 130
+	Memory at ef44d000 (64-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: mei_me
+	Kernel modules: mei_me
+
+00:17.0 0106: 8086:a282 (prog-if 01 [AHCI 1.0])
+	Subsystem: 1458:b005
+	Flags: bus master, 66MHz, medium devsel, latency 0, IRQ 132
+	Memory at ef448000 (32-bit, non-prefetchable) [size=8K]
+	Memory at ef44c000 (32-bit, non-prefetchable) [size=256]
+	I/O ports at f090 [size=8]
+	I/O ports at f080 [size=4]
+	I/O ports at f060 [size=32]
+	Memory at ef44b000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: ahci
+	Kernel modules: ahci
+
+00:1b.0 0604: 8086:a2e7 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1b.2 0604: 8086:a2e9 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 122
+	Bus: primary=00, secondary=03, subordinate=03, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1b.4 0604: 8086:a2eb (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 123
+	Bus: primary=00, secondary=04, subordinate=04, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.0 0604: 8086:a290 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 124
+	Bus: primary=00, secondary=05, subordinate=05, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.1 0604: 8086:a291 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 125
+	Bus: primary=00, secondary=06, subordinate=06, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.2 0604: 8086:a292 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 126
+	Bus: primary=00, secondary=07, subordinate=07, sec-latency=0
+	I/O behind bridge: 0000d000-0000dfff
+	Memory behind bridge: ef300000-ef3fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.4 0604: 8086:a294 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 127
+	Bus: primary=00, secondary=08, subordinate=08, sec-latency=0
+	Memory behind bridge: ef200000-ef2fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1c.6 0604: 8086:a296 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 128
+	Bus: primary=00, secondary=09, subordinate=09, sec-latency=0
+	Memory behind bridge: ef100000-ef1fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1d.0 0604: 8086:a298 (rev f0) (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 129
+	Bus: primary=00, secondary=0a, subordinate=0a, sec-latency=0
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+	Kernel modules: shpchp
+
+00:1f.0 0601: 8086:a2c9
+	Subsystem: 1458:5001
+	Flags: bus master, medium devsel, latency 0
+
+00:1f.2 0580: 8086:a2a1
+	Subsystem: 1458:5001
+	Flags: fast devsel
+	Memory at ef444000 (32-bit, non-prefetchable) [disabled] [size=16K]
+
+00:1f.3 0403: 8086:a2f0
+	Subsystem: 1458:a0c1
+	Flags: bus master, fast devsel, latency 32, IRQ 150
+	Memory at ef440000 (64-bit, non-prefetchable) [size=16K]
+	Memory at ef420000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+00:1f.4 0c05: 8086:a2a3
+	Subsystem: 1458:5001
+	Flags: medium devsel, IRQ 16
+	Memory at ef44a000 (64-bit, non-prefetchable) [size=256]
+	I/O ports at f040 [size=32]
+	Kernel driver in use: i801_smbus
+	Kernel modules: i2c_i801
+
+00:1f.6 0200: 8086:15b8
+	Subsystem: 1458:e000
+	Flags: bus master, fast devsel, latency 0, IRQ 151
+	Memory at ef400000 (32-bit, non-prefetchable) [size=128K]
+	Capabilities: <access denied>
+	Kernel driver in use: e1000e
+	Kernel modules: e1000e
+
+01:00.0 0300: 10de:1b06 (rev a1) (prog-if 00 [VGA controller])
+	Subsystem: 1458:3752
+	Flags: fast devsel, IRQ 255
+	Memory at ee000000 (32-bit, non-prefetchable) [size=16M]
+	Memory at d0000000 (64-bit, prefetchable) [size=256M]
+	Memory at e0000000 (64-bit, prefetchable) [size=32M]
+	I/O ports at e000 [size=128]
+	Expansion ROM at ef000000 [disabled] [size=512K]
+	Capabilities: <access denied>
+	Kernel driver in use: vfio-pci
+	Kernel modules: nouveau
+
+01:00.1 0403: 10de:10ef (rev a1)
+	Subsystem: 1458:3752
+	Flags: fast devsel, IRQ 255
+	Memory at ef080000 (32-bit, non-prefetchable) [disabled] [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: vfio-pci
+	Kernel modules: snd_hda_intel
+
+07:00.0 0200: 1969:e0b1 (rev 10)
+	Subsystem: 1458:e000
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at ef300000 (64-bit, non-prefetchable) [size=256K]
+	I/O ports at d000 [size=128]
+	Capabilities: <access denied>
+	Kernel driver in use: alx
+	Kernel modules: alx
+
+08:00.0 0c03: 1b21:2142 (prog-if 30 [XHCI])
+	Subsystem: 1458:5007
+	Flags: bus master, fast devsel, latency 0, IRQ 16
+	Memory at ef200000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+
+09:00.0 0c03: 1b21:2142 (prog-if 30 [XHCI])
+	Subsystem: 1458:5007
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at ef100000 (64-bit, non-prefetchable) [size=32K]
+	Capabilities: <access denied>
+	Kernel driver in use: xhci_hcd
+	Kernel modules: xhci_pci
+

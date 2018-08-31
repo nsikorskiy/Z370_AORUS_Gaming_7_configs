@@ -1,0 +1,27 @@
+hdmi3 - DP  (switch IEC958 2)
+hdmi2 - HDMI (switch IEC958 1)
+
+
+IEC958 16 - optical out enable
+
+
+
+
+Loopback Mixing - enabel all loop
+
+Auto-Mute Mode - unknow, maybe Mic mute
+
+IEC958 Default PCM - unknow, maybe clone pcm to spdif
+
+
+
+Front:
+  mute - disable rear line out (back jack)
+  volume - not work
+
+Headphone:
+  mute - disable front line out
+  volume - volume lever for front (headphone) and rear line out (back jack)
+
+
+

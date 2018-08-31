@@ -1,0 +1,26 @@
+Simple mixer control 'Master',0
+Simple mixer control 'Headphone',0
+Simple mixer control 'PCM',0
+Simple mixer control 'Front',0
+Simple mixer control 'Front Mic',0
+Simple mixer control 'Front Mic Boost',0
+Simple mixer control 'Surround',0
+Simple mixer control 'Center',0
+Simple mixer control 'LFE',0
+Simple mixer control 'Line',0
+Simple mixer control 'Line Boost',0
+Simple mixer control 'IEC958',0
+Simple mixer control 'IEC958 Default PCM',0
+Simple mixer control 'IEC958',1
+Simple mixer control 'IEC958',2
+Simple mixer control 'IEC958',3
+Simple mixer control 'IEC958',4
+Simple mixer control 'IEC958',16
+Simple mixer control 'Capture',0
+Simple mixer control 'Capture',1
+Simple mixer control 'Auto-Mute Mode',0
+Simple mixer control 'Input Source',0
+Simple mixer control 'Input Source',1
+Simple mixer control 'Loopback Mixing',0
+Simple mixer control 'Rear Mic',0
+Simple mixer control 'Rear Mic Boost',0

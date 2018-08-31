@@ -1,0 +1,131 @@
+null
+    Discard all samples (playback) or generate zero samples (capture)
+pulse
+default
+    Playback/recording through the PulseAudio sound server
+sysdefault:CARD=PCH
+    HDA Intel PCH, ALC1220 Analog
+    Default Audio Device
+front:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    Front speakers
+surround21:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    2.1 Surround output to Front and Subwoofer speakers
+surround40:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    4.0 Surround output to Front and Rear speakers
+surround41:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    4.1 Surround output to Front, Rear and Subwoofer speakers
+surround50:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    5.0 Surround output to Front, Center and Rear speakers
+surround51:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    5.1 Surround output to Front, Center, Rear and Subwoofer speakers
+surround71:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    7.1 Surround output to Front, Center, Side, Rear and Woofer speakers
+iec958:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Digital
+    IEC958 (S/PDIF) Digital Audio Output
+hdmi:CARD=PCH,DEV=0
+    HDA Intel PCH, HDMI 0
+    HDMI Audio Output
+hdmi:CARD=PCH,DEV=1
+    HDA Intel PCH, HDMI 1
+    HDMI Audio Output
+hdmi:CARD=PCH,DEV=2
+    HDA Intel PCH, HDMI 2
+    HDMI Audio Output
+hdmi:CARD=PCH,DEV=3
+    HDA Intel PCH, HDMI 3
+    HDMI Audio Output
+hdmi:CARD=PCH,DEV=4
+    HDA Intel PCH, HDMI 4
+    HDMI Audio Output
+dmix:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    Direct sample mixing device
+dmix:CARD=PCH,DEV=1
+    HDA Intel PCH, ALC1220 Digital
+    Direct sample mixing device
+dmix:CARD=PCH,DEV=3
+    HDA Intel PCH, HDMI 0
+    Direct sample mixing device
+dmix:CARD=PCH,DEV=7
+    HDA Intel PCH, HDMI 1
+    Direct sample mixing device
+dmix:CARD=PCH,DEV=8
+    HDA Intel PCH, HDMI 2
+    Direct sample mixing device
+dmix:CARD=PCH,DEV=9
+    HDA Intel PCH, HDMI 3
+    Direct sample mixing device
+dmix:CARD=PCH,DEV=10
+    HDA Intel PCH, HDMI 4
+    Direct sample mixing device
+dsnoop:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    Direct sample snooping device
+dsnoop:CARD=PCH,DEV=1
+    HDA Intel PCH, ALC1220 Digital
+    Direct sample snooping device
+dsnoop:CARD=PCH,DEV=3
+    HDA Intel PCH, HDMI 0
+    Direct sample snooping device
+dsnoop:CARD=PCH,DEV=7
+    HDA Intel PCH, HDMI 1
+    Direct sample snooping device
+dsnoop:CARD=PCH,DEV=8
+    HDA Intel PCH, HDMI 2
+    Direct sample snooping device
+dsnoop:CARD=PCH,DEV=9
+    HDA Intel PCH, HDMI 3
+    Direct sample snooping device
+dsnoop:CARD=PCH,DEV=10
+    HDA Intel PCH, HDMI 4
+    Direct sample snooping device
+hw:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    Direct hardware device without any conversions
+hw:CARD=PCH,DEV=1
+    HDA Intel PCH, ALC1220 Digital
+    Direct hardware device without any conversions
+hw:CARD=PCH,DEV=3
+    HDA Intel PCH, HDMI 0
+    Direct hardware device without any conversions
+hw:CARD=PCH,DEV=7
+    HDA Intel PCH, HDMI 1
+    Direct hardware device without any conversions
+hw:CARD=PCH,DEV=8
+    HDA Intel PCH, HDMI 2
+    Direct hardware device without any conversions
+hw:CARD=PCH,DEV=9
+    HDA Intel PCH, HDMI 3
+    Direct hardware device without any conversions
+hw:CARD=PCH,DEV=10
+    HDA Intel PCH, HDMI 4
+    Direct hardware device without any conversions
+plughw:CARD=PCH,DEV=0
+    HDA Intel PCH, ALC1220 Analog
+    Hardware device with all software conversions
+plughw:CARD=PCH,DEV=1
+    HDA Intel PCH, ALC1220 Digital
+    Hardware device with all software conversions
+plughw:CARD=PCH,DEV=3
+    HDA Intel PCH, HDMI 0
+    Hardware device with all software conversions
+plughw:CARD=PCH,DEV=7
+    HDA Intel PCH, HDMI 1
+    Hardware device with all software conversions
+plughw:CARD=PCH,DEV=8
+    HDA Intel PCH, HDMI 2
+    Hardware device with all software conversions
+plughw:CARD=PCH,DEV=9
+    HDA Intel PCH, HDMI 3
+    Hardware device with all software conversions
+plughw:CARD=PCH,DEV=10
+    HDA Intel PCH, HDMI 4
+    Hardware device with all software conversions

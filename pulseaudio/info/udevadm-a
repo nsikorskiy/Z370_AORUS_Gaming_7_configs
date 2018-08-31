@@ -1,0 +1,42 @@
+
+Udevadm info starts with the device specified by the devpath and then
+walks up the chain of parent devices. It prints for every device
+found, all possible attributes in the udev rules key format.
+A rule to match, can be composed by the attributes of the device
+and the attributes from one single parent device.
+
+  looking at device '/devices/pci0000:00/0000:00:1f.3/sound/card0':
+    KERNEL=="card0"
+    SUBSYSTEM=="sound"
+    DRIVER==""
+    ATTR{id}=="PCH"
+    ATTR{number}=="0"
+
+  looking at parent device '/devices/pci0000:00/0000:00:1f.3':
+    KERNELS=="0000:00:1f.3"
+    SUBSYSTEMS=="pci"
+    DRIVERS=="snd_hda_intel"
+    ATTRS{ari_enabled}=="0"
+    ATTRS{broken_parity_status}=="0"
+    ATTRS{class}=="0x040300"
+    ATTRS{consistent_dma_mask_bits}=="64"
+    ATTRS{d3cold_allowed}=="1"
+    ATTRS{device}=="0xa2f0"
+    ATTRS{dma_mask_bits}=="64"
+    ATTRS{driver_override}=="(null)"
+    ATTRS{enable}=="1"
+    ATTRS{irq}=="150"
+    ATTRS{local_cpulist}=="0-11"
+    ATTRS{local_cpus}=="fff"
+    ATTRS{msi_bus}=="1"
+    ATTRS{numa_node}=="-1"
+    ATTRS{revision}=="0x00"
+    ATTRS{subsystem_device}=="0xa0c1"
+    ATTRS{subsystem_vendor}=="0x1458"
+    ATTRS{vendor}=="0x8086"
+
+  looking at parent device '/devices/pci0000:00':
+    KERNELS=="pci0000:00"
+    SUBSYSTEMS==""
+    DRIVERS==""
+

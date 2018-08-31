@@ -1,0 +1,19 @@
+P: /devices/pci0000:00/0000:00:1f.3/sound/card0
+E: DEVPATH=/devices/pci0000:00/0000:00:1f.3/sound/card0
+E: ID_BUS=pci
+E: ID_FOR_SEAT=sound-pci-0000_00_1f_3
+E: ID_MODEL_FROM_DATABASE=200 Series PCH HD Audio
+E: ID_MODEL_ID=0xa2f0
+E: ID_PATH=pci-0000:00:1f.3
+E: ID_PATH_TAG=pci-0000_00_1f_3
+E: ID_PCI_CLASS_FROM_DATABASE=Multimedia controller
+E: ID_PCI_SUBCLASS_FROM_DATABASE=Audio device
+E: ID_VENDOR_FROM_DATABASE=Intel Corporation
+E: ID_VENDOR_ID=0x8086
+E: SOUND_FORM_FACTOR=internal
+E: SOUND_INITIALIZED=1
+E: SUBSYSTEM=sound
+E: SYSTEMD_WANTS=sound.target
+E: TAGS=:seat:systemd:
+E: USEC_INITIALIZED=4746942
+
