@@ -1,0 +1,14 @@
+# Set profile for Z370AG7 
+
+SUBSYSTEM!="sound", GOTO="pulseaudio_Z370AG7_end"
+ACTION!="change", GOTO="pulseaudio_Z370AG7_end"
+KERNEL!="card*", GOTO="pulseaudio_Z370AG7_end"
+
+#00:1f.3 Audio device: Intel Corporation 200 Series PCH HD Audio
+#        Subsystem: Gigabyte Technology Co., Ltd 200 Series PCH HD Audio
+#00:1f.3 0403: 8086:a2f0
+#        Subsystem: 1458:a0c1
+
+ATTRS{subsystem_vendor}=="0x1458", ATTRS{subsystem_device}=="0xa0c1", ENV{PULSE_PROFILE_SET}="Z370AG7.conf"
+
+LABEL="pulseaudio_Z370AG7_end"
