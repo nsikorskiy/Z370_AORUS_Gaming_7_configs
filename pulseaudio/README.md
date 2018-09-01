@@ -49,7 +49,7 @@ Files:
   Volume "Front"ignored.
 
 
-* "usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output-Z370AG7.conf"
+~~* "usr/share/pulseaudio/alsa-mixer/paths/iec958-stereo-output-Z370AG7.conf"
 
   TODO.
 
@@ -57,7 +57,8 @@ Files:
   because they do not have SPDIF devices. Perhaps through it there is an audio stream and maybe
   there is silence until "IEC958 Default PCM".
 
-  If this is the case, then you can use SPDIF as the third way for analog stereo.
+  If this is the case, then you can use SPDIF as the third way for analog stereo.~~
+  "IEC958 16" is  "IEC958",index=16. puseaudio not support element index.  LOL, in 2018 puseaudio not support element index.
 
 
 ## Install:
